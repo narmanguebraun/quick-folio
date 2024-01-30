@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-black min-h-screen flex flex-col justify-between p-4 max-w-2xl m-auto text-white">
+      <body className="bg-black min-h-screen flex flex-col justify-between p-4 max-w-[1440px] m-auto text-white">
         <Header />
         {children}
         <Footer />
