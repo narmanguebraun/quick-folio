@@ -6,6 +6,7 @@ export interface Repository {
   html_url: string;
   name: string;
   description: string;
+  topics: string[];
 }
 
 export async function getRepositories(): Promise<Repository[]> {
