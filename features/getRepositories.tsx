@@ -3,10 +3,12 @@ import { GITHUB_USERNAME } from "@/data/constants";
 const user = GITHUB_USERNAME;
 
 export interface Repository {
+  id: string;
   html_url: string;
   name: string;
   description: string;
   topics: string[];
+  pushed_at: string;
 }
 
 export async function getRepositories(): Promise<Repository[]> {
