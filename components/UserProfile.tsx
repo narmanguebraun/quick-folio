@@ -32,6 +32,7 @@ export default async function UserProfile() {
           </Link>
         )}
       </div>
+      {user.blog && <div className="text-sm m-4">{user.blog}</div>}
     </div>
   );
 }

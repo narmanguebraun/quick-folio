@@ -8,6 +8,7 @@ export interface GitHubProfile {
   html_url: string;
   bio: string;
   twitter_username: string;
+  blog: string;
 }
 
 export async function getUser(): Promise<GitHubProfile> {
