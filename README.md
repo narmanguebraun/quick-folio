@@ -1,32 +1,34 @@
-# Quick Folio
+# QUICK-FOLIO
 
 Get a quick personal site, with your projects published on GitHub.
-Made with Next.js, Tailwind CSS, and GitHub API.
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com)
+## Installation
 
-## Getting Started
+1. Clone the repository: `git clone https://github.com/narmanguebraun/quick-folio.git`
+2. Navigate to the project directory: `cd quick-folio`
+3. Install the dependencies: `npm install`
 
-This application requires Node.js v16.13+.
+## View the App on the browser
 
-```bash
-git clone https://github.com/narmanguebraun/quick-folio
-cd quick-folio
-npm install
+1. Start the development server: `npm run dev`
+2. Open your browser and visit `http://localhost:3000`.
+
+## Get your own Quick Folio
+
+1. In the `data` folder, open the `constants.ts` file.
+2. Replace the username value by your own GitHub username:
+
 ```
-
-Then, run the development server:
-
-```bash
-npm run dev
+export const GITHUB_USERNAME = "username";
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the website.
-
-## Get your Quick Folio
-
-In the `data` folder, open the `constants.ts` file, replace the current username value by your own GitHub `username`:
-`export const GITHUB_USERNAME = "username";`
 
 That's it!
+
+## Technologies
+
+This project is built with:
+
+- [Next.js](https://nextjs.org/docs): A React framework for server-side rendering and static site generation.
+- [Tailwind CSS](https://tailwindcss.com/docs/installation): A highly customizable CSS framework.
+- [TypeScript](https://www.typescriptlang.org/docs/): A typed superset of JavaScript that compiles to plain JavaScript.
+- [GitHub API](https://docs.github.com/en/rest?apiVersion=2022-11-28)
